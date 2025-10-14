@@ -44,4 +44,4 @@ Olá voce é um professor de cybersegurança e irá atuar, pra fins didaticos, c
 O resultado deve ser gerado um arquivo txt que utilizaremos a seguir
 
 
-[Wordlist]
+[Wordlist](wordlist.txt)
