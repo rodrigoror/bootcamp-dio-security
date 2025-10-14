@@ -45,3 +45,32 @@ O resultado deve ser gerado um arquivo txt que utilizaremos a seguir
 
 
 [Wordlist](wordlist.txt)
+
+## Resultados obtidos
+
+```
+Cabeçalho / Metadado
+Data / Hora (início): 2025-10-14 09:02:11
+Data / Hora (término): 2025-10-14 09:06:37
+Máquina de auditoria: kali-lab-01 (IP: 192.168.100.10)
+Alvo (teste): vm-wordpress-lab (IP: 192.168.100.50)
+Wordlist (usuários): wordlists/admin_common_30.txt
+Tipo de teste: enumeração de usuários (apenas leitura de resultados)
+
+```
+```
+[09:02:13] TARGET  : 192.168.100.50
+[09:02:20] LOADED  : 30 usernames from wordlists/admin_common_30.txt
+[09:03:11] INFO    : starting iteration 1
+[09:03:45] NOTICE  : response pattern changed for username: admin
+[09:04:02] SUCCESS : username 'admin' appears to exist (probe at 09:03:45)
+[09:04:12] NOTICE  : response pattern changed for username: webmaster
+[09:04:20] SUCCESS : username 'webmaster' appears to exist (probe at 09:04:12)
+[09:04:36] NOTICE  : response pattern changed for username: info
+[09:04:44] SUCCESS : username 'info' appears to exist (probe at 09:04:36)
+[09:05:08] NOTICE  : response pattern changed for username: editor
+[09:05:16] SUCCESS : username 'editor' appears to exist (probe at 09:05:08)
+[09:06:30] COMPLETE: all entries processed
+[09:06:37] SUMMARY : 4 probable usernames discovered, 26 negative
+
+```
