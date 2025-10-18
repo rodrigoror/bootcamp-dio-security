@@ -1,0 +1,2 @@
+estouvamos ver se guarda os dados deveras estsou fazerndo um programa que grava o que 'e escrio[Key.backspace] to
+[Key.esc] 
